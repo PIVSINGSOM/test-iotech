@@ -1,0 +1,107 @@
+body {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f7f7f7;
+}
+.header-box {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  background-color: antiquewhite;
+  /* width: 100%; */
+  background-image: linear-gradient(to right, #9644eb, #5725dc);
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.box-filter {
+    margin-top: 2px;
+    padding:30px;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 1px 0px #d8d8d8;
+    border-radius: 5px;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.box-input{
+    float: left;
+}
+.box-input input{
+    height: 20px;
+    border: 1px solid #f7f7f7;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+}
+
+.box-count-item{
+    float:right;
+    font-weight: 800;
+    font-size: 20px;
+}
+.card{
+    background-color: white;
+    box-shadow: 0px 0px 2px 0px #d8d8d8;
+}
+
+.card-body{
+    padding: 20px;
+    position: relative;
+}
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.avatar{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #d8d8d8;
+    margin-right: 10px;
+    position: relative;
+}
+.inline{
+    display: inline-block;
+}
+
+.box-name-user{
+    position: absolute;
+    margin-top: 20px;
+    padding: 0px;
+    margin-top: -50px !important;
+}
+
+.box-name-user>p{
+    margin-block-start: 47px;
+}
