@@ -47,7 +47,7 @@ export default {
   },
   methods:{
     async getListUser(){
-      let response = await fetch('http://jsonplaceholder.typicode.com/users');
+      let response = await fetch('https://jsonplaceholder.typicode.com/users');
       let result =  await response.json()
       this.listUser = result
     }

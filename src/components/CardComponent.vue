@@ -46,7 +46,7 @@ export default {
           return
       }
       let response = await fetch(
-        `http://jsonplaceholder.typicode.com/users/${this.info.id}`
+        `https://jsonplaceholder.typicode.com/users/${this.info.id}`
       );
       let result = await response.json();
       this.newInfo = result
